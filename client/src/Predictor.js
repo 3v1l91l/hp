@@ -54,7 +54,6 @@ class Navigation extends Component {
         'Content-Type': 'application/json',
         'Authorization': 'Bearer ' + API_KEY,
       },
-      mode: 'no-cors',
       body: JSON.stringify(body)
     }).then(response => {
       console.log(response);
